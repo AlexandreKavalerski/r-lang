@@ -7,7 +7,6 @@ data() #mostra os datasets disponíveis
 View(Orange)
 
 #Correlação
-?cor.test
 cor.test(Orange$circumference,Orange$age)
 
 
