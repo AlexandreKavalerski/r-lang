@@ -1,4 +1,4 @@
-#Implementação de Fibonnaci utilizando Função (Com Recursividade)
+#ImplementaÃ§Ã£o de Fibonnaci utilizando FunÃ§Ã£o (Com Recursividade)
 
 recFibonacci <- function(n) {
     if(n <= 1) {
@@ -8,14 +8,14 @@ recFibonacci <- function(n) {
     }
 }
 
-# take input from the user
+# Entrada do usuÃ¡rio
 nterms = as.integer(readline(prompt="Quantos Termos? "))
 
-# Verifica se o numero de termos é válido
+# Verifica se o numero de termos Ã© vÃ¡lido
 if(nterms <= 0) {
     print("Por favor, informe um valor inteiro positivo!")
 } else {
-    print("Fibonacci da sequência:")
+    print("Fibonacci da sequÃªncia:")
     for(i in 0:(nterms-1)) {
         print(recFibonacci(i))
     }
